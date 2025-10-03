@@ -4,10 +4,8 @@ import TodoForm from "./component/TodoForm";
 import Filters from "./component/Filters";
 import ThemeToggle from "./component/ThemeToggle";
 import "./App.css"
+ const API_URL = "https://back-todo-1-lna9.onrender.com";
 
-
-const API_URL = "https://back-todo-1-lna9.onrender.com
-";
 
 function App() {
   const [todos, setTodos] = useState([]);
